@@ -6,17 +6,19 @@
 //  Copyright © 2019 br. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TLHomeViewController.h"
 
-@interface ViewController ()
+@interface TLHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TLHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    self.title = @"home";
 }
 
 
